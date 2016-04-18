@@ -2,15 +2,18 @@ function convertTemp(number, unit){
 	if(unit === "F") {
 		var conversion = (number - 32)*5/9;
 		console.log(number + " degrees Farenheit converted to Celsius is " + conversion + ".");
+//		alert(number + " degrees Farenheit converted to Celsius is " + conversion + ".") prints in alert box
 //		document.write(number + " degrees Farenheit converted to Celsius is " + conversion + ".") to print to HTML page
 	}
 	else if (unit === "C") {
 		conversion = number * 9/5 + 32;
 		console.log(number + " degrees Celsius converted to Farenheit is " + conversion + ".");
+//		alert(number + " degrees Celsius converted to Farenheit is " + conversion + ".") prints in alert box
 //			document.write(number + " degrees Celsius converted to Farenheit is " + conversion + ".") to print to HTML page
 	 }
 	else { 
 		console.log("Please enter unit of F or C and try again.");
+//		alert("Please enter unit of F or C and try again.") prints in alert box
 //		document.write("Please enter unit of F or C and try again.") to print to HTML page
 	}
 }
