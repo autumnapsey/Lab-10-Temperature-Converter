@@ -1,4 +1,4 @@
-var button	= document.getElementById("button");
+var button	= document.getElementById("button")
 
 button.addEventListener("click", function(){
 	var number = parseFloat(document.getElementById("tempInput").value,10);

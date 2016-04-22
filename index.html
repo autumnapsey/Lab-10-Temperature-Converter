@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Lab 6 Temperature Converter</title>
-</head>
-<body>
-<h1>Convert temperatures here!</h1>
-<p>Check the Console for your conversion.</p>
-<script type="text/javascript" src="tempfunction.js"></script>
-</body>
+	<head>
+		<title>Lab 6 Temperature Converter</title>
+		<link rel="stylesheet" type="text/css" href="Stylesheets/styles.css">
+	</head>
+		<body>
+		<h1>Convert temperatures here!</h1>
+		<div>
+			<p>What would you like to convert?
+				<input type="text" placeholder="Temperature" id="tempInput" />
+				<input type="text" placeholder="Unit" id="unitInput" />
+				<input type="button" value="Convert Now!" id="button" />
+			</p>
+			<p id="answer"></p>
+		</div>
+		<script type="text/javascript" src="Javascript/tempfunction.js"></script>
+	</body>
 </html>
