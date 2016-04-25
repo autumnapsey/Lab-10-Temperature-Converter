@@ -1,12 +1,13 @@
 body {
   background: url("../stardust.png");
-  color: #808080;
+  color: #666;
   font-family: arial, sans serif;
 }
 h1 {
+  font-family: 'Amatic SC', cursive;
   color: #fff;
   text-align: center;
-  font-size: 250%;
+  font-size: 300%;
 }
 p {
   font-size: 120%;
